@@ -1,1 +1,1 @@
-# blog-da-escola-stackx
+# Projeto pratico do modulo stacx lab
