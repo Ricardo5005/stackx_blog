@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Stackx</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script type="module" src="./assets/js/app.js" defer></script>
+</head>
+
+<body>
+    <!--  -->
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo">logo</a>
+            <a href="#" class="login">login</a>
+        </div>
+    </header>
+
+
+    <!--  -->
+    <section class="home" id="home">
+        <div class="home_text container">
+            <h2 class="home_title">Blog</h2>
+
+        </div>
+
+    </section>
+
+    <!--filtro de postagem  -->
+    <div class="post_filter container">
+        <span class="filter_item" js_filter="all_categories">Todas</span>
+        <span class="filter_item" js_filter="category_1">categoria 1</span>
+        <span class="filter_item" js_filter="category_2">categoria 2</span>
+        <span class="filter_item" js_filter="category_3">categoria 3</span>
+        <span class="filter_item" js_filter="category_4">categoria 4</span>
+    </div>
+
+    <!-- container que abriga todos os cards -->
+    <section class="post" js_container_cards>
+        <!-- card 1 -->
+        <div class="post_box" js_cards js_category="category_1">
+            <img class="post_img"
+                src="https://images.unsplash.com/photo-1670332339459-fe5d2093167a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDR8Q0R3dXdYSkFiRXd8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=60"
+                alt="Imagem de demonstração">
+            <h2 class="category">Título do card 1</h2>
+            <p class="post_title">Categoria do card 1</p>
+            <span class="post_date" js_date_time>Data do card 1</span>
+            <span class="category"> Visualizações: <span js_views_card_1>0</span></span>
+            <p class="post_description" id="post_description_1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+        </div>
+
+        <!-- card 2 -->
+        <div class="post_box" js_cards js_category="category_2">
+            <img class="post_img"
+                src="https://images.unsplash.com/photo-1686139280426-483b26ab94b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDV8Q0R3dXdYSkFiRXd8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=60"
+                alt="Imagem de demonstração">
+            <h2 class="category">Título do card 2</h2>
+            <p class="post_title">Categoria do card 2</p>
+            <span class="post_date" js_date_time>Data do card 2</span>
+            <span class="category">Visualizações: <span js_views_card_2>0</span></span>
+            <p class="post_description" id="post_description_2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+        </div>
+
+        <!-- card 3 -->
+        <div class="post_box" js_cards js_category="category_3">
+            <img class="post_img"
+                src="https://images.unsplash.com/photo-1621246046602-e75168c03fd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDd8Q0R3dXdYSkFiRXd8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=60"
+                alt="Imagem de demonstração">
+            <h2 class="category">Título do card 3</h2>
+            <p class="post_title">Categoria do card 3</p>
+            <span class="post_date" js_date_time>Data do card 3</span>
+            <span class="category"> Visualizações: <span js_views_card_3>0</span></span>
+            <p class="post_description" id="post_description_3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+        </div>
+
+        <!-- card 4 -->
+        <div class="post_box" js_cards js_category="category_4">
+            <img class="post_img"
+                src="https://images.unsplash.com/photo-1691938608898-88ae4d41375c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEyfENEd3V3WEpBYkV3fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=2000&q=60"
+                alt="Imagem de demonstração">
+            <h2 class="category">Título do card 4</h2>
+            <p class="post_title">Categoria do card 4</p>
+            <span class="post_date" js_date_time>Data do card 4</span>
+            <span class="category"> Visualizações: <span js_views_card_4>0</span></span>
+            <p class="post_description" id="post_description_4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+        </div>
+    </section>
+</body>
+
+</html>
