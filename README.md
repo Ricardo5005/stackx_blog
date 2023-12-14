@@ -1,1 +1,1 @@
-# Projeto pratico do modulo stacx lab
+# Projeto prático do modulo stacx lab
