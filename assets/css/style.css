@@ -76,15 +76,14 @@ padding: 18px  0;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 500;
     cursor: pointer;
     padding: 4px  10px;
     border: 1px solid #e0dcdc;
     border-radius: 4px;
     transition: 0.4s;
-    width: 150px;
-
+    width: 160px;
 }
 .filter_item:hover{
     background-color: rgba(202, 222, 135, 0.441);
@@ -180,4 +179,13 @@ padding: 18px  0;
     line-height: 1.7rem;
     margin: 1rem 0;
     text-align: justify;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 30px 0;
+}
+.footer p{
+    font: size 1rem; 
 }

@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Stackx</title>
+    <link
+			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
     <link rel="stylesheet" href="./assets/css/style.css">
     <script type="module" src="./assets/js/app.js" defer></script>
 </head>
@@ -13,8 +17,9 @@
     <!--  -->
     <header>
         <div class="nav container">
-            <a href="#" class="logo">logo</a>
-            <a href="#" class="login">login</a>
+            <a href="#" class="logo">tecnologies of the future</a>
+    
+            <a href="#" class="login"><i class="bx bxs-cube-alt bx-rotate-90 bx-burst" style="color:#1c1b1b"></i></a>
         </div>
     </header>
 
@@ -31,10 +36,10 @@
     <!--filtro de postagem  -->
     <div class="post_filter container">
         <span class="filter_item" js_filter="all_categories">Todas</span>
-        <span class="filter_item" js_filter="category_1">categoria 1</span>
-        <span class="filter_item" js_filter="category_2">categoria 2</span>
-        <span class="filter_item" js_filter="category_3">categoria 3</span>
-        <span class="filter_item" js_filter="category_4">categoria 4</span>
+        <span class="filter_item" js_filter="category_1">Game</span>
+        <span class="filter_item" js_filter="category_2">mobile</span>
+        <span class="filter_item" js_filter="category_3">iot</span>
+        <span class="filter_item" js_filter="category_4">sustentabilidade</span>
     </div>
 
     <!-- container que abriga todos os cards -->
@@ -42,59 +47,66 @@
         <!-- card 1 -->
         <div class="post_box" js_cards js_category="category_1">
             <img class="post_img"
-                src="https://images.unsplash.com/photo-1670332339459-fe5d2093167a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDR8Q0R3dXdYSkFiRXd8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=60"
+                src="https://images.unsplash.com/photo-1617864064479-f203fc7897c0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGxheXN0YXRpb24lMjA1fGVufDB8fDB8fHww"
                 alt="Imagem de demonstração">
-            <h2 class="category">Título do card 1</h2>
-            <p class="post_title">Categoria do card 1</p>
-            <span class="post_date" js_date_time>Data do card 1</span>
+            <h2 class="category">playstation 5 </h2>
+            <p class="post_title">Game</p>
+            <span class="post_date" js_date_time></span>
             <span class="category"> Visualizações: <span js_views_card_1>0</span></span>
             <p class="post_description" id="post_description_1">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Os principais recursos de hardware...
             </p>
         </div>
 
         <!-- card 2 -->
         <div class="post_box" js_cards js_category="category_2">
             <img class="post_img"
-                src="https://images.unsplash.com/photo-1686139280426-483b26ab94b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDV8Q0R3dXdYSkFiRXd8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=60"
+                src="https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Imagem de demonstração">
-            <h2 class="category">Título do card 2</h2>
-            <p class="post_title">Categoria do card 2</p>
-            <span class="post_date" js_date_time>Data do card 2</span>
+            <h2 class="category">smartphone</h2>
+            <p class="post_title">mobile</p>
+            <span class="post_date" js_date_time></span>
             <span class="category">Visualizações: <span js_views_card_2>0</span></span>
             <p class="post_description" id="post_description_2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Telefone celular ou telemóvel, é um aparelho de comunicação por ondas eletromagnéticas 
             </p>
         </div>
 
         <!-- card 3 -->
         <div class="post_box" js_cards js_category="category_3">
             <img class="post_img"
-                src="https://images.unsplash.com/photo-1621246046602-e75168c03fd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDd8Q0R3dXdYSkFiRXd8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=60"
+                src="https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c21hcnQlMjB3YXRjaHxlbnwwfHwwfHx8MA%3D%3D"
                 alt="Imagem de demonstração">
-            <h2 class="category">Título do card 3</h2>
-            <p class="post_title">Categoria do card 3</p>
-            <span class="post_date" js_date_time>Data do card 3</span>
+            <h2 class="category">smartwatch</h2>
+            <p class="post_title">iot</p>
+            <span class="post_date" js_date_time></span>
             <span class="category"> Visualizações: <span js_views_card_3>0</span></span>
             <p class="post_description" id="post_description_3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Um relógio inteligente é um relógio de pulso computadorizado com funcionalidades que vão além de mostrar as horas
             </p>
         </div>
 
         <!-- card 4 -->
         <div class="post_box" js_cards js_category="category_4">
             <img class="post_img"
-                src="https://images.unsplash.com/photo-1691938608898-88ae4d41375c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEyfENEd3V3WEpBYkV3fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=2000&q=60"
+                src="https://images.unsplash.com/photo-1615829386703-e2bb66a7cb7d?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Imagem de demonstração">
-            <h2 class="category">Título do card 4</h2>
-            <p class="post_title">Categoria do card 4</p>
-            <span class="post_date" js_date_time>Data do card 4</span>
+            <h2 class="category">veiculo elétrico</h2>
+            <p class="post_title">sustentabilidade</p>
+            <span class="post_date" js_date_time></span>
             <span class="category"> Visualizações: <span js_views_card_4>0</span></span>
             <p class="post_description" id="post_description_4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Carro elétrico é um veículo a motor para transporte de carga e de pessoas propulsionado por motor elétrico.
             </p>
         </div>
     </section>
+    <div class="footer">
+        <p style="font-weight: bold;">Ricardo izidoro 
+            <a href="https://github.com/Ricardo5005/stackx_blog" target="_blank"><i class="bx bxl-github"></i></a>
+            <a href="https://wa.me/5511966730275" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+        </p>
+
+    </div>
 </body>
 
 </html>
