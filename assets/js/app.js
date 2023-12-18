@@ -17,7 +17,7 @@ views_card_4.innerHTML = localStorage.getItem("views_card_4") || 0;
 
 // filtro de categoria
 window.addEventListener("click", (event) => {
-    const filter_category = event.target.getAttribute("data_filter");
+    const filter_category = event.target.getAttribute("js_Filter");
 
     switch (filter_category) {
         case "all_categories":
@@ -28,25 +28,25 @@ window.addEventListener("click", (event) => {
 
         case "category_1":
             all_cards.forEach((card) => {
-                card.getAttribute("data_category") === "category_1" ? card.style.display = "block" : card.style.display = "none";
+                card.getAttribute("js_category") === "category_1" ? card.style.display = "block" : card.style.display = "none";
             });
             break;
 
         case "category_2":
             all_cards.forEach((card) => {
-                card.getAttribute("data_category") === "category_2" ? card.style.display = "block" : card.style.display = "none";
+                card.getAttribute("js_category") === "category_2" ? card.style.display = "block" : card.style.display = "none";
             });
             break;
 
         case "category_3":
             all_cards.forEach((card) => {
-                card.getAttribute("data_category") === "category_3" ? card.style.display = "block" : card.style.display = "none";
+                card.getAttribute("js_category") === "category_3" ? card.style.display = "block" : card.style.display = "none";
             });
             break;
 
         case "category_4":
             all_cards.forEach((card) => {
-                card.getAttribute("data_category") === "category_4" ? card.style.display = "block" : card.style.display = "none";
+                card.getAttribute("js_category") === "category_4" ? card.style.display = "block" : card.style.display = "none";
             });
             break;
 
@@ -69,25 +69,25 @@ all_cards.forEach((card, indice) => {
             case 'category_1':
                 views_card_1.innerHTML = parseInt(views_card_1.innerHTML) + 1;
                 localStorage.setItem("views_card_1", views_card_1.innerText);
-                window.location.assign("../post_description/post.html");
+                window.location.assign("../../assets/post_description/post.html");
                 break;
 
             case 'category_2':
                 views_card_2.innerHTML = parseInt(views_card_2.innerHTML) + 1;
                 localStorage.setItem("views_card_2", views_card_2.innerText);
-                window.location.assign("../post_description/post.html");
+                window.location.assign("../../assets/post_description/post.html");
                 break;
 
             case 'category_3':
                 views_card_3.innerHTML = parseInt(views_card_3.innerHTML) + 1;
                 localStorage.setItem("views_card_3", views_card_3.innerText);
-                window.location.assign("../post_description/post.html");
+                window.location.assign("../../assets/post_description/post.html");
                 break;
 
             case 'category_4':
                 views_card_4.innerHTML = parseInt(views_card_4.innerHTML) + 1;
                 localStorage.setItem("views_card_4", views_card_4.innerText);
-                window.location.assign("../post_description/post.html");
+                window.location.assign("../../assets/post_description/post.html");
                 break;
 
             default:
